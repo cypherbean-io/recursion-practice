@@ -1,4 +1,5 @@
 def merge_sort(array)
+  puts 'This was printed recursively'
   # Base case: array of length 0 or 1 is already sorted
   return array if array.length <= 1
 

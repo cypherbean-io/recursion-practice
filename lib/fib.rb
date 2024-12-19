@@ -11,6 +11,8 @@ def fibs(number)
 end
 
 def fibs_rec(number)
+  puts 'This was printed recursively'
+
   return [] if number == 0
   return [0] if number == 1
   return [0, 1] if number == 2
